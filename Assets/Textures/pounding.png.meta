@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: 62b128814fde54edeb48886701aed8f7
+timeCreated: 1429902845
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pounding_0
+    21300002: pounding_1
+    21300004: pounding_2
+    21300006: pounding_3
+    21300008: pounding_4
+    21300010: pounding_5
+    21300012: pounding_6
+    21300014: pounding_7
+    21300016: pounding_8
+    21300018: pounding_9
+    21300020: pounding_10
+    21300022: pounding_11
+    21300024: pounding_12
+    21300026: pounding_13
+    21300028: pounding_14
+    21300030: pounding_15
+    21300032: pounding_16
+    21300034: pounding_17
+    21300036: pounding_18
+    21300038: pounding_19
+    21300040: pounding_20
+    21300042: pounding_21
+    21300044: pounding_22
+    21300046: pounding_23
+    21300048: pounding_24
+    21300050: pounding_25
+    21300052: pounding_26
+    21300054: pounding_27
+    21300056: pounding_28
+    21300058: pounding_29
+    21300060: pounding_30
+    21300062: pounding_31
+    21300064: pounding_32
+    21300066: pounding_33
+    21300068: pounding_34
+    21300070: pounding_35
+    21300072: pounding_36
+    21300074: pounding_37
+    21300076: pounding_38
+    21300078: pounding_39
+    21300080: pounding_40
+    21300082: pounding_41
+    21300084: pounding_42
+    21300086: pounding_43
+    21300088: pounding_44
+    21300090: pounding_45
+    21300092: pounding_46
+    21300094: pounding_47
+    21300096: pounding_48
+    21300098: pounding_49
+    21300100: pounding_50
+    21300102: pounding_51
+    21300104: pounding_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pounding_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 34
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 34
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 34
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 34
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 34
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 35
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 35
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_7
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 35
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_8
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 35
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_9
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 35
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_10
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 35
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_11
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 35
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_12
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 35
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_13
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 34
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_14
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 34
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_15
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 34
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_16
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 34
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_17
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 34
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_18
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 34
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_19
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 34
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_20
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 34
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_21
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 34
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_22
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 34
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_23
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 34
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_24
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 34
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_25
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 34
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_26
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 34
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_27
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 34
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_28
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 34
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_29
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 34
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_30
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 34
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_31
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 34
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_32
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 34
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_33
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 32
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_34
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 32
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_35
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_36
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 31
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_37
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 30
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_38
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 30
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_39
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 30
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_40
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 30
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_41
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 30
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_42
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 30
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_43
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 30
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_44
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 30
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_45
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 30
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_46
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 30
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_47
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 30
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_48
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 30
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_49
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 30
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_50
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 30
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_51
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 24
+        width: 192
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pounding_52
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 24
+        width: 192
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
