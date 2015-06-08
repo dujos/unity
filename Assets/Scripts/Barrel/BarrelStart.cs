@@ -9,7 +9,7 @@ public class BarrelStart : BarrelKong {
 			base.OnTriggerEnter2D (collider);
 			kong.GetComponent<Rigidbody2D> ().gravityScale = 0;
 			kong.GetComponent<KongAnimation> ().KongTrigger ("Land");
-			kong.GetComponent<KongController> ().KongStop ();
+			//kong.GetComponent<KongController> ().KongStop ();
 		}
 	}	
 }

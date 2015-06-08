@@ -11,6 +11,10 @@ public class KongAnimation : MonoBehaviour {
 		kong = gameObject.GetComponent<Kong> ();
 	}
 
+	public void KongBoost (bool state) {
+		animator.SetBool ("Boost", state);
+	}
+
 	public void KongPunch () {
 		animator.Play ("KongPunching");
     }
@@ -31,8 +35,17 @@ public class KongAnimation : MonoBehaviour {
 		animator.SetBool ("Moving", state);
 	}
 
+	public void KongWalk (bool state) {
+		animator.SetBool ("Walking", state);
+	}
+	
+	public void KongFall (bool state) {
+		//animator.Play ("KongFalling");
+		animator.SetBool ("Falling", state);
+	}
+
 	public void KongEnterBarrel (bool state) {
-		animator.SetBool ("Moving", !state);
+		KongMove (state);
 	}
 
 	public void KongExitBarrel (bool state) {

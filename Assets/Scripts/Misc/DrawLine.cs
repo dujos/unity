@@ -13,6 +13,6 @@ public class DrawLine : MonoBehaviour {
 	}
 
 	public void OnDrawGizmos () {
-		//Gizmos.DrawLine (start.position, target.position);
+		Gizmos.DrawLine (start.position, target.position);
     }
 }

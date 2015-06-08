@@ -2,16 +2,13 @@
 using System.Collections;
 
 public class Arrow : MonoBehaviour {
-
 	private float waitTime;
 	private float angle;
-	private bool isVisible;
 
 	// Use this for initialization
 	void Start () {
 		waitTime = 4f;
 		angle = 180f;
-		isVisible = false;
 
 		ShowArrow ();
 		BlinkArrow ();
@@ -27,11 +24,6 @@ public class Arrow : MonoBehaviour {
 	
 	public void BlinkArrow () {
 		StartCoroutine (BlinkArrowCo ());
-		if (isVisible) {
-			ArrowVisible (true);
-		} else {
-			ArrowVisible (false);
-		}
 	}
 	
 	private IEnumerator BlinkArrowCo () {

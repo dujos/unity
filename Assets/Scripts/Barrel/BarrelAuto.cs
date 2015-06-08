@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BarrelAuto : Barrel {
-	public float waitBarrel; 
+public class BarrelAuto : BarrelKong {
+	public float waitBarrel;
 
 	public void Start () {
 		animator = transform.GetComponent<Animator> ();
@@ -15,11 +15,11 @@ public class BarrelAuto : Barrel {
 		isKongInside = false;
 	}
 	
-	public override void OnTriggerEnter2D (Collider2D collider) {
+	public void OnTriggerEnter2D (Collider2D collider) {
 		kong = collider.gameObject.GetComponent<Kong> ();
 		if (kong) {
 			isKongInside = true;
-			kong.KongEnterBarrel (transform);
+			//kong.KongEnterBarrel (transform);
 			StartCoroutine (AnimationCo ("BarrelCollision", true));
 
 			if (look) {
@@ -30,7 +30,7 @@ public class BarrelAuto : Barrel {
         }
 	}
 
-	public override void OnTriggerExit2D (Collider2D collider) {
+	public void OnTriggerExit2D (Collider2D collider) {
 		kong = collider.gameObject.GetComponent<Kong> ();
 		if (kong) {
 			isKongInside = false;
@@ -40,6 +40,6 @@ public class BarrelAuto : Barrel {
 
 	public IEnumerator ExitBarrelCo (Kong kong) {
 		yield return new WaitForSeconds (waitBarrel);
-		kong.KongExitBarrel (transform);
+		//kong.KongExitBarrel (transform);
 	}
 }

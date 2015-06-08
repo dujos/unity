@@ -1,8 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scroller.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Item/Item.cs">
     <Files>
-      <File FileName="Assets/Scripts/Scroller.cs" Line="26" Column="1" />
+      <File FileName="Assets/Secret.cs" Line="5" Column="2" />
+      <File FileName="Assets/Scripts/Item/Coin.cs" Line="22" Column="2" />
+      <File FileName="Assets/Scripts/Item/Star.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Item/Token.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Item/Item.cs" Line="4" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

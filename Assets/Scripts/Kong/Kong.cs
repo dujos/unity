@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 public class Kong : Entity {
-	private bool canKongMove;
+	/*
 	private bool canKongDie;
 
 	delegate void KongState();
@@ -16,20 +16,22 @@ public class Kong : Entity {
 	private KongController kongController;
 
 	private List<GameObject> kongBoosters;
+	private bool isKongInsideBarrel;
 
 	void Awake () {
-		kongAnimation = GetComponent<KongAnimation> ();
-		kongController = GetComponent<KongController> ();
-
-		kongBoosters = new List<GameObject> ();
-		Boost.onPickedBoost += AddBoost;
-		checkPoint = null;
-
+		checkPoint = transform;
 	}
 
 	// Use this for initialization
 	void Start () {
 		canKongDie = true;
+		isKongInsideBarrel = false;
+
+		kongAnimation = GetComponent<KongAnimation> ();
+		kongController = GetComponent<KongController> ();
+		
+		kongBoosters = new List<GameObject> ();
+		Boost.onPickedBoost += AddBoost;
 	}
 	
 	// Update is called once per frame
@@ -37,21 +39,16 @@ public class Kong : Entity {
 
 	}
 
-	public void AddBoost (GameObject boost) {
-		/*
-		if (!kongBoosters.Contains (boost)) {
-			kongBoosters.Add (boost);
-		}
-		*/
+	public void SetIsKongInsideBarrel (bool state) {
+		isKongInsideBarrel = state;
+	}
 
-		if (boost.name.Equals ("BoostSpeed")) {
-			var speed = boost.GetComponent<BoostSpeed> ().speed;
-			kongController.SetKongSpeed (speed);
-		} else if (boost.name.Equals ("BoostWater")) {
-			//boost.GetComponent<BoostWater> ();
-		} else if (boost.name.Equals ("BoostFire")) {
-			//boost.GetComponent<BoostFire> ();
-		}
+	public bool IsKongInsideBarrel () {
+		return isKongInsideBarrel;
+	}
+
+	public void AddBoost (GameObject boost) {
+	
 	}
 
 	public List<GameObject> GetBoost () {
@@ -85,16 +82,20 @@ public class Kong : Entity {
     public void KongEnterBarrel (Transform target) {
 		kongAnimation.KongEnterBarrel (false);
 		SetKongActive (false);
+		SetIsKongInsideBarrel (true);
 
-		kongController.SetKongMoving (false);
+		//kongController.SetKongMoving (false);
+		//kongController.KongStop ();
 		kongController.SetKongPosition (target);
 	}
 
 	public void KongExitBarrel (Transform target) {
-		kongAnimation.KongExitBarrel (true);
+		kongAnimation.KongExitBarrel (false);
 		SetKongActive (true);
+		SetIsKongInsideBarrel (false);
 
-		kongController.SetKongMoving (true);
+		//kongController.SetKongMoving (true);
+		//kongController.KongMove ();
 		kongController.SetKongDirection (target);
 	}
 
@@ -103,7 +104,7 @@ public class Kong : Entity {
 	}
 
 	public void SetKongCheckPoint (Transform point) {
-		checkPoint = point.transform;
+		checkPoint = point;
 	}
 
 	public void KongSpawn () {
@@ -111,18 +112,54 @@ public class Kong : Entity {
 	}
 
 	private IEnumerator KongSpawnCo () {
+		yield return new WaitForSeconds (1f);
 		kongController.SetKongMoving (false);
-		yield return new WaitForSeconds (0.5f);
+		yield return new WaitForSeconds (2f);
 		transform.position = checkPoint.position;
 		kongController.SetKongMoving (true);
-		//kongAnimation.KongDie (false);
+		kongAnimation.KongDie (false);
+	}
+
+	public void KongStop () {
+		kongController.KongStop ();
 	}
 
 	public void KongDie (string nameOfEnemy) {
-		Debug.Log (nameOfEnemy);
-		//kongAnimation.KongDie (true);
-		//KongSpawn ();
-		//canKongMove = false;
+		kongAnimation.KongDie (true);
+		KongSpawn ();
+	}
+
+	public void KongWalk (bool state) {
+		kongAnimation.KongWalk (state);
+	}
+
+	public void KongFall (bool state) {
+		StartCoroutine (KongFallCo ());
+	}
+
+	public IEnumerator KongFallCo () {
+        kongAnimation.KongFall (true);
+		yield return new WaitForSeconds (kongAnimation.GetComponent<Animation> ().clip.length*2);
+		kongAnimation.KongFall (false);
+		kongAnimation.KongMove (true);
+        kongController.KongMove ();
+	}
+
+	public void SetKongDirection (Vector2 direction) {
+		kongController.SetKongDirection (direction);
+	}
+
+	public Vector2 GetKongDirection () {
+		return kongController.GetKongDirection ();
+	}
+
+	public float GetKongSpeed () {
+		return kongController.GetKongSpeed ();
+	}
+
+
+	public void KongMove (bool state) {
+		kongAnimation.KongMove (state);
 	}
 
 	public void KongBoost () {
@@ -130,13 +167,14 @@ public class Kong : Entity {
 	}
 
 	private IEnumerator KongBoostCo () {
-		//SetKongAnimation ("Boost", true);
-		//StartParticles ();
+		KongBlink blink = new KongBlink ();
+		blink.SetBlinkDuration (0f, 0f, 0.1f);
+		transform.gameObject.AddComponent<KongBlink> ();
+
+		kongAnimation.KongBoost (true);
 		canKongDie = false;
-
 		yield return new WaitForSeconds (4);
-
-		//SetKongAnimation ("Boost", false);
+		kongAnimation.KongBoost (false);
 		canKongDie = true;
 	}
 
@@ -146,4 +184,5 @@ public class Kong : Entity {
 			collider.enabled = enabled;
 		}
 	}
+	*/
 }

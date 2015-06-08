@@ -16,11 +16,13 @@ public class CameraFollow : MonoBehaviour {
 		kong = GameObject.Find ("Kong");
 		//bounds = GameObject.Find ("Bounds");
 
-		Vector3 temp;
-		temp = bounds.GetComponent<MeshRenderer> ().bounds.max;
-		maxXAndY = new Vector2 (temp.x, temp.y);
-		temp = bounds.GetComponent<MeshRenderer> ().bounds.min;
-		minXAndY = new Vector2 (temp.x, temp.y);
+		if (bounds != null) {
+			Vector3 temp;
+			temp = bounds.GetComponent<MeshRenderer> ().bounds.max;
+			maxXAndY = new Vector2 (temp.x, temp.y);
+			temp = bounds.GetComponent<MeshRenderer> ().bounds.min;
+			minXAndY = new Vector2 (temp.x, temp.y);
+		}
 	}
 
 	bool CheckXMargin() {
@@ -35,10 +37,8 @@ public class CameraFollow : MonoBehaviour {
 	public void Update () {
 		TrackKong ();
 	}
-	
-	
-	void TrackKong ()
-	{
+
+	void TrackKong () {
 		var x = transform.position.x;
 		var y = transform.position.y;
 		
@@ -49,10 +49,11 @@ public class CameraFollow : MonoBehaviour {
 		if(CheckYMargin()) {
 			y = Mathf.Lerp(transform.position.y, kong.transform.position.y, ySmooth * Time.deltaTime);            
 		}
-        
-        x = Mathf.Clamp(x, minXAndY.x, maxXAndY.x);
-        y = Mathf.Clamp(y, minXAndY.y, maxXAndY.y);
-        
+
+		if (bounds != null) {
+			x = Mathf.Clamp(x, minXAndY.x, maxXAndY.x);
+			y = Mathf.Clamp(y, minXAndY.y, maxXAndY.y);
+		}        
         transform.position = new Vector3(x, y, transform.position.z);
     }
 }

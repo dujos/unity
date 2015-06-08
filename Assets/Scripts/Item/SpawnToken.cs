@@ -5,7 +5,7 @@ public class SpawnToken : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		KongDetector.onKongDetect += SpawnAToken;
+		//KongDetector.onKongDetect += SpawnAToken;
 	}
 
 	public void SpawnAToken () {

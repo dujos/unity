@@ -7,7 +7,6 @@ public class TeleportPoint : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
 	}
 
 	public void OnTriggerEnter2D (Collider2D collider) {

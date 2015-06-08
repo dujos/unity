@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: d73302e97e4d349e5bf39569633787c6
+timeCreated: 1431600255
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: letters_0
+    21300002: letters_1
+    21300004: letters_2
+    21300006: letters_3
+    21300008: letters_4
+    21300010: letters_5
+    21300012: letters_6
+    21300014: letters_7
+    21300016: letters_8
+    21300018: letters_9
+    21300020: letters_10
+    21300022: letters_11
+    21300024: letters_12
+    21300026: letters_13
+    21300028: letters_14
+    21300030: letters_15
+    21300032: letters_16
+    21300034: letters_17
+    21300036: letters_18
+    21300038: letters_19
+    21300040: letters_20
+    21300042: letters_21
+    21300044: letters_22
+    21300046: letters_23
+    21300048: letters_24
+    21300050: letters_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: letters_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 37
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 38
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 38
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 38
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 37
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 37
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_6
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 38
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 37
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 37
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 38
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_10
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 37
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 37
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_12
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 38
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_13
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 37
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_14
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 38
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_15
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 37
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 4
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 3
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 4
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_21
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 3
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_22
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 4
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_23
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 4
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_24
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: letters_25
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 3
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

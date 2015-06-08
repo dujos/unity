@@ -1,23 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Coin : Entity {
+public class Coin : Pickable {
+
+	/*
 	private int coinPoint;
+	protected Detector cd;
+	private float destroyTime = 2f;
 
-	public delegate void CoinHandler (int point);
-	public static CoinHandler onCoinPicked;
-
-	public void Start () {
+	void Start () {
 		coinPoint = 10;
+		gameObject.GetComponent<SpriteRenderer> ().enabled = true;
+
+		//cd.onDetectedOn += Detected;
 	}
 
 	public void OnTriggerEnter2D (Collider2D collider) {
-		Kong kong = collider.gameObject.GetComponent<Kong> ();
-		if (kong) {
-			if (onCoinPicked != null) {
-				onCoinPicked (coinPoint);
-				Destroy (gameObject);
+		if (collider.gameObject.GetComponent<KongController> ()) {
+			if (cd != null) {
 			}
 		}
 	}
+
+	public void Detected () {
+		Debug.Log ("detected");
+	}
+	*/
 }

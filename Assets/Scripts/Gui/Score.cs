@@ -1,24 +1,46 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Score : MonoBehaviour {
-
 	private int coinScore;
 	private int tokenScore;
 	private int starScore;
-	private GameObject kong;
+	private GameObject coinNumber;
+	private GameObject tokenNumber;
+	private GameObject starNumber;
+	private List<GameObject>[] scores;
+
+	public void Awake () {
+		tokenScore = 0;
+		starScore = 0;
+	}
 
 	// Use this for initialization
 	void Start () {
-		coinScore = 0;
-		tokenScore = 0;
-		starScore = 0;
+		/*
+		GameObject.Find ("Token").GetComponent<Token> ().onItemPicked += TokenPicked;
+		GameObject.Find ("Star").GetComponent<Star> ().onItemPicked += StarPicked;
+		GameObject.Find ("Token").GetComponent<Token> ().onItemPicked += TokenStart;
 
-		Coin.onCoinPicked += CoinPicked;
-		Token.onTokenPicked += TokenPicked;
-
-		kong = GameObject.Find ("Kong");
+		coinNumber = Instantiate (GameObject.Find ("Numbers"));
+		coinNumber.name = "CoinScore";
+		starNumber = Instantiate (GameObject.Find ("Numbers"));
+		starNumber.name = "StarScore";
+		tokenNumber = Instantiate (GameObject.Find ("Numbers"));
+		tokenNumber.name = "TokenScore";
+		*/
 	}
+
+	public void ShowAll () {
+
+	}
+
+	public void ItemShow () {
+
+	}
+
+	public void TokenStart () {}
 
 	public void CoinPicked (int point) {
 		coinScore += point;
@@ -28,11 +50,7 @@ public class Score : MonoBehaviour {
 		tokenScore += point;
 	}
 
-	public void Update () {
-
-	}
-
-	public void OnGui () {
-
+	public void StarPicked (int point) {
+		starScore += point;
 	}
 }

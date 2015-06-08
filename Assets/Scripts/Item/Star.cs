@@ -1,18 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Star : MonoBehaviour {
-	private float spawnTime;
-	
+public class Star : Pickable {
+	/*
+	private int starPoint;
+
 	public void Start () {
+		starPoint = 10;
+		gameObject.GetComponent<SpriteRenderer> ().enabled = visible;
 	}
-
-	public float GetSpawnTime () {
-		return spawnTime;
+	
+	public void OnTriggerEnter2D (Collider2D collider) {
+		Kong kong = collider.gameObject.GetComponent<Kong> ();
+		if (kong) {
+			//if (onItemPicked != null) {
+			//	onItemPicked (starPoint);
+			//}
+			Destroy (gameObject);
+		}
 	}
-
-	// Update is called once per frame
-	void Update () {
-
-	}
+	*/
 }
